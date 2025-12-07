@@ -1,0 +1,25 @@
+Loan Amount: $400,000
+Annual Interest Rate: 6%
+Loan Term:30 years
+#Python example
+P = 400000
+annual_rate/100/12
+n = 30 * 12
+M = P * r (1 +r)**n/((1 + r)**n - 1))
+print(f"Monthly Payment: ${M:.2f})**Loan Overview:**  
+- **Loan Amount:** $400,000  
+- **Annual Interest Rate:** 6%  
+- **Loan Term:** 30 years  
+
+**Python Example:**  
+Implement this code to calculate your monthly payment accurately:
+
+```python
+P = 400000  # Principal loan amount
+r = annual_rate / 100 / 12  # Monthly interest rate
+n = 30 * 12  # Total number of payments over 30 years
+M = P * r * (1 + r)**n / ((1 + r)**n - 1)  # Monthly payment calculation
+print(f"Your Monthly Payment: ${M:.2f}")  # Output the payment clearly
+```
+
+Run this code to gain a precise understanding of your mortgage payments. Take control of your financial future and confidently step into homeownership!
